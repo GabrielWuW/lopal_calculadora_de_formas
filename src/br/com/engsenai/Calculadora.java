@@ -1,18 +1,17 @@
 package br.com.engsenai;
 
-import model.Quadrado;
+import br.com.engsenai.ui.Menu;
 import model.Retangulo;
 
 public class Calculadora {
 
 	public static void main(String[] args) {
-		Quadrado q1 = new Quadrado();
-		q1.setLado(10.6);
-		q1.exibirDados();
+		Retangulo retangulo = new Retangulo();
+		retangulo.setDados(10, 15);
+		retangulo.exibirDados();
 		
-		Retangulo r1 = new Retangulo();
-		r1.setDados(10, 10);
-		r1.exibirDados();
+		Menu.mostrarMenu();
+		
 	}
 
 }

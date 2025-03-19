@@ -20,8 +20,8 @@ public class Quadrado {
 	}
 
 	public void exibirDados() {
-		System.out.println("=====Quadrado======");
-		System.out.println("===================");
+		System.out.println("=====Quadrado=====");
+		System.out.println("==================");
 		System.out.println("Lado: " + lado);
 		System.out.println("Area: " + calcularArea());
 		System.out.println("Perimetro: " + calcularPerimetro());

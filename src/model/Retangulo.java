@@ -4,8 +4,6 @@ public class Retangulo {
 	private double base;
 	private double altura;
 	
-	private double area;
-	private double perimetro;
 	
 	public void setDados(double base, double altura) {
 		this.base = base;
@@ -13,13 +11,11 @@ public class Retangulo {
 	}
 	
 	public double calcularArea() {
-		area = base * altura;
-		return area;
+		return base * altura;
 	}
 	
 	public double calcularPerimetro() {
-		perimetro = Math.pow(base, 2) + Math.pow(altura, 2);
-		return perimetro;
+		return Math.pow(base, 2) + Math.pow(altura, 2);
 	}
 	
 	public void exibirDados() {
