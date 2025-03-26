@@ -15,7 +15,7 @@ public class Retangulo {
 	}
 	
 	public double calcularPerimetro() {
-		return Math.pow(base, 2) + Math.pow(altura, 2);
+		return 2 * (base + altura);
 	}
 	
 	public void exibirDados() {
@@ -26,7 +26,5 @@ public class Retangulo {
 		System.out.println("Area: " + calcularArea());
 		System.out.println("Perimetro:" + calcularPerimetro());
 		System.out.println("===================");
-		
 	}
-
 }

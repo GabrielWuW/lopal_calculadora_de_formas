@@ -9,12 +9,12 @@ public class Quadrado {
 		this.lado = lado;
 	}
 
-	public double calcularArea() {
+	private double calcularArea() {
 		area = Math.pow(lado, 2);
 		return area;
 	}
 
-	public double calcularPerimetro() {
+	private double calcularPerimetro() {
 		perimetro = lado * 4;
 		return perimetro;
 	}

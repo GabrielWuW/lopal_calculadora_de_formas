@@ -2,6 +2,7 @@ package br.com.engsenai.dao;
 
 import java.util.Scanner;
 
+import br.com.engsenai.ui.Menu;
 import model.Quadrado;
 
 public class QuadradoDao {
@@ -18,6 +19,9 @@ public class QuadradoDao {
 		
 		quadrado.exibirDados();
 		
-		leitor.close();
+		Menu.continuar(leitor);
+		
+		//leitor.close();
+		
 	}
 }
